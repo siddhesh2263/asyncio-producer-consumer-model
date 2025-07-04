@@ -22,3 +22,9 @@ Additionally, instead of having each worker call the `callback: task complete` f
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-design.png?raw=true)
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/async-system.png?raw=true)
+
+---
+
+tradeoff between memory, wait time, 
+
+main, producer, consimer, result_handler, controller(_controller last), call main in main.py again.
