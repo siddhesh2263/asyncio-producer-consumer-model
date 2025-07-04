@@ -21,7 +21,7 @@ Additionally, instead of having each worker call the `callback: task complete` f
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-1.png?raw=true)
 
-![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/async-system.png?raw=true)
+![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-2.png?raw=true)
 
 ---
 
