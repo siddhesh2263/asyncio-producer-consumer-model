@@ -23,6 +23,8 @@ Additionally, instead of having each worker call the `callback: task complete` f
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-2.png?raw=true)
 
+![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/terminal-op.png?raw=true)
+
 ---
 
 tradeoff between memory, wait time, 

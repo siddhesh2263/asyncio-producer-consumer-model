@@ -12,7 +12,7 @@ def main(job_id: str) -> None:
 
     task_data = [
         {"task_id": i, "number": i}
-        for i in range(100)
+        for i in range(10)
     ]
 
     run_job(task_data, task_callback, job_callback)
