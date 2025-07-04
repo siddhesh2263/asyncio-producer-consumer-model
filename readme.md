@@ -19,7 +19,7 @@ In the project, we will include function signatures such as `function`, `params`
 
 Additionally, instead of having each worker call the `callback: task complete` function directly, workers push the results to a result queue. A dedicated result handler consumes this queue and triggers `callback: task complete`. This design prevents workers from blocking if `callback: task complete` is time-consuming.
 
-![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-design.png?raw=true)
+![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-1.png?raw=true)
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/async-system.png?raw=true)
 

@@ -8,14 +8,14 @@ import consumer, producer, result_handler
 # how many result handlers, size of the queues. Instead of hardcoding, can tweak
 # them from here.
 
-NUM_WORKERS = 50
-WORK_QUEUE_MAX_SIZE = 200
+NUM_WORKERS = 5
+WORK_QUEUE_MAX_SIZE = 20
 
 # If the workers aren't keepin up, the queue can get filled up, and producers will
 # wait to put items into the queue.
 
-NUM_RESULT_HANDLERS = 50
-RESULT_QUEUE_MAX_SIZE = 200
+NUM_RESULT_HANDLERS = 5
+RESULT_QUEUE_MAX_SIZE = 20
 
 # We will write our controller, which will be an async function.
 # _ means it is private to this module, or pseudo private according to convention.
