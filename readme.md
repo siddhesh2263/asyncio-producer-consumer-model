@@ -15,6 +15,8 @@ So in practice, we define:
 * A shared work queue that holds those items,
 * Worker taks that process items from the queue.
 
+<br>
+
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-1.png?raw=true)
 
 <br>
@@ -23,7 +25,7 @@ In the project, we will include function signatures such as `function`, `params`
 
 Additionally, instead of having each worker call the `callback: task complete` function directly, workers push the results to a result queue. A dedicated result handler consumes this queue and triggers `callback: task complete`. This design prevents workers from blocking if `callback: task complete` is time-consuming.
 
-Additionally, instead of having each worker call the `callback: task complete` function directly, workers push the results to a result queue. A dedicated result handler consumes this queue and triggers `callback: task complete`. This design prevents workers from blocking if `callback: task complete` is time-consuming.
+<br>
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/system-2.png?raw=true)
 
