@@ -33,7 +33,7 @@ Additionally, instead of having each worker call the `callback: task complete` f
 
 ## Results
 
-In this run, each task had an individual processing time ranging from approximately 0.52 to 1.70 seconds, and if executed sequentially, the total time would have been around 10.76 seconds. However, with the asynchronous producer-consumer model and multiple workers running concurrently, the entire job completed in 2.70 seconds. This shows a clear performance gain—roughly a 4× speedup — due to concurrency, where multiple tasks were handled in overlapping time windows instead of waiting for each to finish before starting the next.
+In this run, each task had an individual processing time ranging from approximately 0.52 to 1.70 seconds, and if executed sequentially, the total time would have been around 10.76 seconds. However, with the asynchronous producer-consumer model and multiple workers running concurrently, the entire job completed in 2.70 seconds. This shows a clear performance gain - roughly a 4× speedup due to concurrency, where multiple tasks were handled in overlapping time windows instead of waiting for each to finish before starting the next.
 
 ![alt text](https://github.com/siddhesh2263/asyncio-producer-consumer-model/blob/main/assets/terminal-op.png?raw=true)
 
