@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Results](#results)
-3. [Tradeoff between memory and wait times](#tradeoff-between-memory-and-wait-times)
+- [Overview](#overview)
+- [Results](#results)
+- [Tradeoff between memory and wait times](#tradeoff-between-memory-and-wait-times)
 
 <br>
 
