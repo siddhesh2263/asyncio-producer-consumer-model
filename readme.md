@@ -1,5 +1,13 @@
 # Producer-Consumer model using Python (with AsyncIO)
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Results](#results)
+3. [Tradeoff between memory and wait times](#tradeoff-between-memory-and-wait-times)
+
+<br>
+
 ## Overview
 
 The producer-consumer model is a technique used to perform multiple tasks asynchronously. In this setup, we repeatedly perfom the same type of work, but with different inputs.
